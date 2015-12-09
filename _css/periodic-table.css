@@ -1,0 +1,40 @@
+#periodic-table {
+    width: 90%;
+    margin: 0 auto !important;
+    clear: both;
+}
+#periodic-table .block {
+	min-height: 76px;
+	width: 5.55% !important;
+	padding: 0.5px !important;
+	text-align: center !important;
+}
+#periodic-table .block .block-inner {
+	width: 100%;
+	max-width: 100%;
+	cursor: pointer !important;
+	overflow: hidden;
+}
+.element-symbol {
+	height: auto;
+	margin: 0px 10px 5px 0px !important;
+	border: 1px solid;
+	text-align: center;
+}
+.block:hover {
+    transform-origin: center;
+    -webkit-transform: scale(0.95);
+    -webkit-transition: all 200ms ease;
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    transition: all 200ms ease;
+}
+.fs-sm {
+	font-size: 0.7em;
+}
+.fs-md {
+    font-size: 1.2em;
+}
+.bottom-block {
+	margin-top: -40px;
+}
